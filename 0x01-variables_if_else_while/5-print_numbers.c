@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
-*main - prints nos from 0-9
+*main - Entry point
 *
-*REturn: Always 0
+*Description: 'a list of numbers from 0 to 9'
+*
+*Return: Always 0 (Success)
 */
 int main(void)
 {
