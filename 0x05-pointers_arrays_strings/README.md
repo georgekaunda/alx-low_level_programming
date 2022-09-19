@@ -9,3 +9,4 @@ a function that prints half of a string, followed by a new line.
 Write a function that prints n elements of an array of integers, followed by a new line.
  a function that copies the string pointed to by src
  a function that prints half of a string, followed by a new line
+Write a function that convert a string to an integer
