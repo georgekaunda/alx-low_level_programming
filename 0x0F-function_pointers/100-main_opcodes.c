@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	unsigned char *f;
 	int i = 0, bytes;
 
-	if (argc != 2)	
+	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 	f = (unsigned char *) main;
-	bytes = atoi(argv[1]);	
+	bytes = atoi(argv[1]);
 	for (; i < bytes; i++)
 	{
 		printf("%02x", *(f + i));
@@ -33,6 +33,6 @@ int main(int argc, char *argv[])
 			printf(" ");
 	}
 	printf("\n");
-
+	
 	return (0);
 }
